@@ -98,7 +98,7 @@ spec:
       persistentVolumeClaim:
         claimName: $(inputs.params.task-pvc)
 ---
-apiVersion: tekton.dev/v1alpha1
+apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
   name: validate-task
